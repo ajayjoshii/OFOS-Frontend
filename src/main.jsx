@@ -10,7 +10,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <BrowserRouter>
       <App />
-      <ToastContainer
+      {/* <ToastContainer
         position="top-right"
         autoClose={3000}
         hideProgressBar={false}
@@ -20,6 +20,16 @@ ReactDOM.createRoot(document.getElementById("root")).render(
         pauseOnFocusLoss
         draggable
         pauseOnHover
+        theme="colored"
+      /> */}
+
+       <ToastContainer
+        position="top-right"
+        autoClose={3000}
+        closeOnClick={true}
+        closeButton={true}
+        draggable={true}
+        pauseOnHover={true}
         theme="colored"
       />
     </BrowserRouter>
