@@ -347,7 +347,7 @@ export default function Login({ onLogin }) {
 
   return (
     <div
-      className="min-h-screen bg-cover bg-center flex justify-center items-center px-4"
+      className="min-h-screen bg-cover bg-center flex justify-center items-center sm:max-w-md sm:mx-auto px-4"
      
     >
       <ToastContainer />
