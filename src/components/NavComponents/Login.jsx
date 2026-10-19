@@ -347,14 +347,11 @@ export default function Login({ onLogin }) {
 
   return (
     <div
-      className="min-h-screen bg-cover bg-center flex justify-center items-center px-4 mt-[48px]"
-      style={{
-        backgroundImage:
-          "url('https://www.shutterstock.com/image-photo/variety-nepalese-traditional-dumpling-momos-600w-1844667388.jpg')",
-      }}
+      className="min-h-screen bg-cover bg-center flex justify-center items-center px-4"
+     
     >
       <ToastContainer />
-      <div className="w-full max-w-xl bg-white bg-opacity-95 backdrop-blur-lg shadow-2xl rounded-2xl p-10 transform transition-all duration-500 hover:scale-[1.02] animate-fade-in-up">
+      <div className="w-full bg-white bg-opacity-95 backdrop-blur-lg shadow-2xl rounded-2xl p-5 transform transition-all duration-500 hover:scale-[1.02] animate-fade-in-up">
         <h2 className="text-4xl font-extrabold mb-8 text-center text-green-700 tracking-wide drop-shadow-lg">
           {mode === "login" ? "Login" : "Register"}
         </h2>

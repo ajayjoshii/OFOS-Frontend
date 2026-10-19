@@ -33,7 +33,7 @@ const Auth = ({ onAuth }) => {
   };
 
   return (
-    <div className="max-w-md mx-auto p-6 bg-white border rounded-lg shadow-lg">
+    <div className="mx-auto p-6 bg-white border rounded-lg shadow-lg">
       <h2 className="text-2xl font-bold mb-4">{mode === "register" ? "Register" : "Login"}</h2>
       <form onSubmit={handleSubmit} className="space-y-4">
         {mode === "register" && (
