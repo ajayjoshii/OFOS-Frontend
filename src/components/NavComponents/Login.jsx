@@ -317,7 +317,7 @@ export default function Login({ onLogin }) {
         localStorage.setItem("token", user.token);
         toast.success("Login successful 🎉", {
           position: "top-center",
-          autoClose: 5000,
+          autoClose: 1000,
           theme: "colored",
         });
         onLogin(user);
